@@ -10,4 +10,5 @@ The official source code for the video is behind a pay wall.
 There are a lot of gotchas in building this app:
 
 * When it's time to find the github address for realm, the address given in video is outdated.
-* When choosing Realm, you must only choose one.
+* When choosing Realm, you are pesented with two items to Add to Target, choose *RealmSwift*, make sure Ream is set to None
+* Do not even touch Product | Clean Build Folder, everything breaks
