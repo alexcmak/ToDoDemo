@@ -9,6 +9,7 @@ The official source code for the video is behind a pay wall.
 
 There are a lot of gotchas in building this app:
 
-* When it's time to find the github address for realm, the address given in video is outdated.
-* When choosing Realm, you are pesented with two items to Add to Target, choose *RealmSwift*, make sure Ream is set to None
+* When it's time to find the github address for realm, the address given in video is outdated. Use this one http://github.com/realm/realm-swift
+* When choosing Realm, you are presented with two items to Add to Target, choose *RealmSwift*, make sure Ream is set to None
 * Do not even touch Product | Clean Build Folder, everything breaks
+* The if !task.isInvalidated "solution" does not work.
