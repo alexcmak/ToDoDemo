@@ -21,8 +21,6 @@ struct TasksView: View {
                     task in
                     if !task.isInvalidated
                     {
-                        
-                        
                         TaskRow(task: task.title, completed: task.completed)
                             .onTapGesture {
                                 realmManager.updateTask(id: task.id, completed: !task.completed)
@@ -36,7 +34,6 @@ struct TasksView: View {
                                 }
                                 
                             }
-                        
                     }
                 }.listRowSeparator(.hidden)
             }.onAppear {

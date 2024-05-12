@@ -4,6 +4,9 @@
 //
 //  Created by Alex Mak on 5/11/24.
 //
+// The URL mentioned in the video do not exist anymore.
+// the updated URL is https://github.com/realm/realm-swift
+// Choose Master, and you MUST only choose one of the check boxes, not two
 
 import Foundation
 import RealmSwift
@@ -17,8 +20,6 @@ class RealmManager: ObservableObject {
         openRealm()
         getTasks()
     }
-    
-    
     
     func openRealm() {
         do {
