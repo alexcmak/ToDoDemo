@@ -16,5 +16,5 @@ There are a lot of gotchas in building this app:
 Things about working with a Mac and XCode
 
 * Do not even touch Product | Clean Build Folder, everything breaks
-*The $99 magic keyboard is unusable, arrow keys too small. No home and end buttons.
-*The Apple Trackpad is unusable if you want any speed - any serious programmer need the logitech Mx mouse.
+* The $99 magic keyboard is unusable, arrow keys too small. No home and end buttons.
+* The Apple Trackpad is unusable if you want any speed - any serious programmer need the logitech Mx mouse.
